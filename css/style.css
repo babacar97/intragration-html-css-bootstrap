@@ -1,0 +1,203 @@
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header a.logo {
+  font-size: 4px;
+  font-weight: bold;
+}
+.E{
+  color:#33ccff;
+}
+
+.header {
+  overflow: hidden;
+  background-color:black;
+  background-size: 100%;
+  opacity: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.header a {
+  float: left;
+  color:white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+}
+
+
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+h1{
+  color: white;
+  font-size: 16px;
+  text-decoration-line: underline;
+}
+
+.header-right {
+  position: relative;
+  left: 780px; ;
+}
+.logo{
+  position: relative;
+  left: 100px;
+  text-decoration-line: none;
+}
+span{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+span{
+    text-align: center;
+}
+
+
+#fondecran {
+  /* Fixe l'image en haut à gauche de la page */
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  /* Préserve le ratio de l'image */
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  z-index: 1;
+ }
+ .fondecran1 {
+  /* Fixe l'image en haut à gauche de la page */
+  position: relative; 
+  top: 700px; 
+  left: 0; 
+  /* Préserve le ratio de l'image */
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  z-index: 2;
+ }
+ section{
+   position: relative;
+   z-index: 2;
+ }
+ 
+
+ .text-description{
+   position: relative;
+   left: -55px;
+   font-family: "SegoeUI-Light", serif;
+   font-size: 3em;
+   text-transform: uppercase;
+   text-align: center;
+   color:white;
+   top: 320px;
+   
+ }
+
+
+
+
+ /* ----------------------------service------------------------------------- */
+ .service{
+   position: relative;
+   z-index: 2;
+   top: 590px;
+   background-color: #33ccff;
+   height: 800px;
+ }
+ .description{
+  color: white;
+  position: relative; 
+}
+h2{
+  color: white;
+}
+ .contact{
+   position: relative;
+   top: 280px;
+ }
+ input[type=text], select, textarea {
+  padding: 12px;
+  border: 3px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  opacity: 40%;
+}
+input[type=submit] {
+  background-color: #33ccff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  top: 80px;
+}
+
+input[type=submit]:hover {
+  background-color: #33ccff;
+}
+.fname {
+  position: relative;
+  width: 40%;
+}
+.lname
+{
+  position: relative;
+  width: 40%;
+}
+.subject{
+  position: relative;
+  width: 100%;
+}
+label{
+  color: white;
+}
+body {
+  overflow-x: hidden; 
+}
+
+
+/* ---------------------------footer------------------------------ */
+.footer{
+  position: relative;
+  z-index: 3;
+  font-family: "SegoeUI-SemiBold", serif;
+  font-size: 1em;
+  background-color: black;
+  height: 110px;
+  top: 600px;
+}
+.footer a{
+  text-decoration: none;
+  position: relative;
+  left: 150px;
+  top: 50px;
+  color: white;
+  padding: 12px;
+}
+
+
+
+ 
